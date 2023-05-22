@@ -1,0 +1,122 @@
+[
+  {
+    "text": "First things first... are you vegan or vegetarian?",
+    "options": ["Vegetarian", "Vegan", "Neither"],
+    "scores": [1, 2, 3]
+  },
+  {
+    "text": "If you were a kitchen appliance, which would you be? ",
+    "options": [
+      "A zesty citrus juicer",
+      "A delicate pastry brush",
+      "A trusty wooden spoon",
+      "A precise digital scale"
+    ],
+    "scores": [1, 0.7, 0.3, 0.8]
+  },
+  {
+    "text": "Which one of these should be illegal?",
+    "options": [
+      "Putting milk in the bowl before the cereal",
+      "Socks with sandals",
+      "Ketchup in pasta",
+      "Pineapple on pizza",
+      "Vaping right in front of my face"
+    ],
+    "scores": [0.3, 0.1, 0.4, 0.5, 1]
+  },
+  {
+    "text": "If you could switch lives with any cartoon character, which would it be?",
+    "options": [
+      "Winnie the Pooh",
+      "Bojack Horseman",
+      "Aang from Avatar: The Last Airbender",
+      "Zelda, the princess of Hyrule"
+    ],
+    "scores": [0.1, 1, 0.8, 0.9]
+  },
+  {
+      "text": "Which do you prefer ",
+      "options": [
+          "Crunchy peanut butter",
+          "Smooth peanut butter"
+      ],
+      "scores": [1, 0.4]
+  },
+  {
+    "text": "You arrive at the forest and see two paths. Which path do you take?",
+    "options": [
+      "The rainbow path with glitter and sparkles",
+      "The cobbled narrow path with a candy trail",
+      "The blocks of logs with fiery roars heard in the background",
+      "The racing track with a go kart ready to zoom!"
+    ],
+    "scores": [0.5, 0.2, 0.9, 1]
+  },
+  {
+    "text": "Which of the following would you rather have?",
+    "options": [
+      "A giant pet bunny",
+      "A miniature pocket-sized elephant",
+      "A talking plant",
+      "A flying unicorn"
+    ],
+    "scores": [0.5, 0.7, 1, 0.2]
+  },
+  {
+    "text": "Which band name is the slayest?",
+    "options": [
+      "The Joel Jammers",
+      "Zac and the Zappadoodles",
+      "The Maria Mavericks",
+      "The Emily Entertainers",
+      "Chiara's Chirpers",
+      "XiaoWan's Wacky Whirlwinds"
+    ],
+    "scores": [1, 1, 1, 1, 1, 1]
+  },
+  {
+    "text": "Would you rather:",
+    "options": [
+      "Have toenails you could never cut",
+      "Have a bath with 10 slimy octopuses for 1 hour/week"
+    ],
+    "scores": [1, 0.4]
+  },
+  {
+    "text": "What is your favourite beverage of choice at 9am in the morning?",
+    "options": [
+      "Freshly brewed Italian Arabica coffee",
+      "Delicate, floral Chamomile and Ginger tea",
+      "A 1Litre bottle of Jack Daniels Whiskey",
+      "A classic Brown Sugar milk tea with tapioca",
+      "Raspbery & Passionfruit infused kombucha with chai"
+    ],
+    "scores": [0.9, 0.5, 1, 0.2, 0.6]
+  },
+  {
+      "text": "Meow meow meow",
+      "options": [
+          "Meow meow meow meow",
+          "Mewow meow meow MEEEEOOOOW"
+      ],
+      "scores": [0.3, 1]
+  },
+  {
+      "text": "WOOF WOO WOOF ",
+      "options": [
+          "WOOFIE WOOFOFFF",
+          "WOOFADOODLE WOOF"
+      ],
+      "scores": [0.7, 1]
+  },
+  {
+      "text": "Toilet roll",
+      "options": [
+          "under",
+          "over"
+      ],
+      "scores": [0.5, 0.7]
+  }
+]
+ 

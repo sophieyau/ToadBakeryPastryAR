@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F62601112A16D9DE00BDA70F /* Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = F689FF3729F6CB93002AAD9B /* Questions.json */; };
+		F62601132A16E78B00BDA70F /* PastryARExperience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F62601122A16E78B00BDA70F /* PastryARExperience.rcproject */; };
+		F689FF2229F6CA97002AAD9B /* ToadBakeryARPastryQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F689FF2129F6CA97002AAD9B /* ToadBakeryARPastryQuizApp.swift */; };
+		F689FF2429F6CA97002AAD9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F689FF2329F6CA97002AAD9B /* ContentView.swift */; };
+		F689FF2629F6CA99002AAD9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F689FF2529F6CA99002AAD9B /* Assets.xcassets */; };
+		F689FF2929F6CA99002AAD9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F689FF2829F6CA99002AAD9B /* Preview Assets.xcassets */; };
+		F689FF3029F6CAEB002AAD9B /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F689FF2F29F6CAEA002AAD9B /* QuizView.swift */; };
+		F689FF3229F6CB02002AAD9B /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F689FF3129F6CB02002AAD9B /* ResultView.swift */; };
+		F689FF3429F6CB17002AAD9B /* Pastry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F689FF3329F6CB17002AAD9B /* Pastry.swift */; };
+		F689FF3629F6CB2D002AAD9B /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = F689FF3529F6CB2D002AAD9B /* Question.swift */; };
+		F689FF3A29F6CBF5002AAD9B /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F689FF3929F6CBF5002AAD9B /* QuizManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F62601122A16E78B00BDA70F /* PastryARExperience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = PastryARExperience.rcproject; sourceTree = "<group>"; };
+		F62601142A16F79B00BDA70F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F689FF1E29F6CA97002AAD9B /* ToadBakeryARPastryQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToadBakeryARPastryQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F689FF2129F6CA97002AAD9B /* ToadBakeryARPastryQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToadBakeryARPastryQuizApp.swift; sourceTree = "<group>"; };
+		F689FF2329F6CA97002AAD9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F689FF2529F6CA99002AAD9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F689FF2829F6CA99002AAD9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F689FF2F29F6CAEA002AAD9B /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		F689FF3129F6CB02002AAD9B /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		F689FF3329F6CB17002AAD9B /* Pastry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pastry.swift; sourceTree = "<group>"; };
+		F689FF3529F6CB2D002AAD9B /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		F689FF3729F6CB93002AAD9B /* Questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Questions.json; sourceTree = "<group>"; };
+		F689FF3929F6CBF5002AAD9B /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F689FF1B29F6CA97002AAD9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F689FF1529F6CA97002AAD9B = {
+			isa = PBXGroup;
+			children = (
+				F689FF2029F6CA97002AAD9B /* ToadBakeryARPastryQuiz */,
+				F689FF1F29F6CA97002AAD9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F689FF1F29F6CA97002AAD9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F689FF1E29F6CA97002AAD9B /* ToadBakeryARPastryQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F689FF2029F6CA97002AAD9B /* ToadBakeryARPastryQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				F62601142A16F79B00BDA70F /* Info.plist */,
+				F689FF2129F6CA97002AAD9B /* ToadBakeryARPastryQuizApp.swift */,
+				F689FF2329F6CA97002AAD9B /* ContentView.swift */,
+				F689FF2F29F6CAEA002AAD9B /* QuizView.swift */,
+				F689FF3129F6CB02002AAD9B /* ResultView.swift */,
+				F62601122A16E78B00BDA70F /* PastryARExperience.rcproject */,
+				F689FF3329F6CB17002AAD9B /* Pastry.swift */,
+				F689FF3529F6CB2D002AAD9B /* Question.swift */,
+				F689FF3929F6CBF5002AAD9B /* QuizManager.swift */,
+				F689FF3729F6CB93002AAD9B /* Questions.json */,
+				F689FF2529F6CA99002AAD9B /* Assets.xcassets */,
+				F689FF2729F6CA99002AAD9B /* Preview Content */,
+			);
+			path = ToadBakeryARPastryQuiz;
+			sourceTree = "<group>";
+		};
+		F689FF2729F6CA99002AAD9B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F689FF2829F6CA99002AAD9B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F689FF1D29F6CA97002AAD9B /* ToadBakeryARPastryQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F689FF2C29F6CA99002AAD9B /* Build configuration list for PBXNativeTarget "ToadBakeryARPastryQuiz" */;
+			buildPhases = (
+				F689FF1A29F6CA97002AAD9B /* Sources */,
+				F689FF1B29F6CA97002AAD9B /* Frameworks */,
+				F689FF1C29F6CA97002AAD9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToadBakeryARPastryQuiz;
+			productName = ToadBakeryARPastryQuiz;
+			productReference = F689FF1E29F6CA97002AAD9B /* ToadBakeryARPastryQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F689FF1629F6CA97002AAD9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F689FF1D29F6CA97002AAD9B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = F689FF1929F6CA97002AAD9B /* Build configuration list for PBXProject "ToadBakeryARPastryQuiz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F689FF1529F6CA97002AAD9B;
+			productRefGroup = F689FF1F29F6CA97002AAD9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F689FF1D29F6CA97002AAD9B /* ToadBakeryARPastryQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F689FF1C29F6CA97002AAD9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F689FF2929F6CA99002AAD9B /* Preview Assets.xcassets in Resources */,
+				F62601112A16D9DE00BDA70F /* Questions.json in Resources */,
+				F689FF2629F6CA99002AAD9B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F689FF1A29F6CA97002AAD9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F689FF2429F6CA97002AAD9B /* ContentView.swift in Sources */,
+				F689FF3229F6CB02002AAD9B /* ResultView.swift in Sources */,
+				F689FF2229F6CA97002AAD9B /* ToadBakeryARPastryQuizApp.swift in Sources */,
+				F689FF3A29F6CBF5002AAD9B /* QuizManager.swift in Sources */,
+				F62601132A16E78B00BDA70F /* PastryARExperience.rcproject in Sources */,
+				F689FF3629F6CB2D002AAD9B /* Question.swift in Sources */,
+				F689FF3429F6CB17002AAD9B /* Pastry.swift in Sources */,
+				F689FF3029F6CAEB002AAD9B /* QuizView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F689FF2A29F6CA99002AAD9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F689FF2B29F6CA99002AAD9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F689FF2D29F6CA99002AAD9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToadBakeryARPastryQuiz/Preview Content\"";
+				DEVELOPMENT_TEAM = AC6PG82HVR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ToadBakeryARPastryQuiz/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access required to see pastry in AR!";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo library access required to save!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ToadBakeryARPastryQuizSY.ToadBakeryARPastryQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F689FF2E29F6CA99002AAD9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToadBakeryARPastryQuiz/Preview Content\"";
+				DEVELOPMENT_TEAM = AC6PG82HVR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ToadBakeryARPastryQuiz/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access required to see pastry in AR!";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo library access required to save!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ToadBakeryARPastryQuizSY.ToadBakeryARPastryQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F689FF1929F6CA97002AAD9B /* Build configuration list for PBXProject "ToadBakeryARPastryQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F689FF2A29F6CA99002AAD9B /* Debug */,
+				F689FF2B29F6CA99002AAD9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F689FF2C29F6CA99002AAD9B /* Build configuration list for PBXNativeTarget "ToadBakeryARPastryQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F689FF2D29F6CA99002AAD9B /* Debug */,
+				F689FF2E29F6CA99002AAD9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F689FF1629F6CA97002AAD9B /* Project object */;
+}
