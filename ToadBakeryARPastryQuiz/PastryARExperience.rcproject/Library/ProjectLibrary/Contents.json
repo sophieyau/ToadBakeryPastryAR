@@ -8,5 +8,30 @@
     "libraryIdentifier" : "f6471ef8e62534d109acee748e3dac95",
     "format" : "model",
     "displayName" : "yuzu 3d usdz.usdz"
+  },
+  {
+    "libraryIdentifier" : "c294a11d9d25274a755474fc5962f9c7",
+    "format" : "model",
+    "displayName" : "soy.usdz"
+  },
+  {
+    "libraryIdentifier" : "4a236db95d9e96036e8bc47d729cbd02",
+    "format" : "model",
+    "displayName" : "yuzu 3d w type.usdz"
+  },
+  {
+    "libraryIdentifier" : "122d99b467101cd3ea7ca367ffe71079",
+    "format" : "model",
+    "displayName" : "mambowbake.usdz"
+  },
+  {
+    "libraryIdentifier" : "afa40fedf8cbd7c7e7e1ce76fcb849e5",
+    "format" : "model",
+    "displayName" : "rhubarb.usdz"
+  },
+  {
+    "libraryIdentifier" : "6c607c0f558649c24e546701427c3602",
+    "format" : "model",
+    "displayName" : "cheesypuff.usdz"
   }
 ]

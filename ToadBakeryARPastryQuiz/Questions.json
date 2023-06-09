@@ -5,6 +5,14 @@
     "scores": [1, 2, 3]
   },
   {
+      "text": "Are you a",
+      "options": [
+          "Sweet gal",
+          "Savoury gal"
+      ],
+      "scores": [0.5, 0.5]
+  },
+  {
     "text": "If you were a kitchen appliance, which would you be? ",
     "options": [
       "A zesty citrus juicer",
@@ -13,6 +21,14 @@
       "A precise digital scale"
     ],
     "scores": [1, 0.7, 0.3, 0.8]
+  },
+  {
+      "text": "Do you consider yourself a",
+      "options": [
+          "young soul",
+          "old soul stuck in modern day"
+      ],
+      "scores": [0.6, 0.1]
   },
   {
     "text": "Which one of these should be illegal?",
@@ -36,6 +52,15 @@
     "scores": [0.1, 1, 0.8, 0.9]
   },
   {
+      "text": "Best day of the week = ",
+      "options": [
+          "Friday",
+          "Saturday",
+          "Sunday"
+      ],
+      "scores": [0.2, 0.4, 0.1]
+  },
+  {
       "text": "Which do you prefer ",
       "options": [
           "Crunchy peanut butter",
@@ -44,7 +69,7 @@
       "scores": [1, 0.4]
   },
   {
-    "text": "You arrive at the forest and see two paths. Which path do you take?",
+    "text": "You arrive at the forest and see four paths. Which path do you take?",
     "options": [
       "The rainbow path with glitter and sparkles",
       "The cobbled narrow path with a candy trail",
